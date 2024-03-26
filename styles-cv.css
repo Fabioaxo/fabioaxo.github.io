@@ -1,0 +1,25 @@
+body {
+    height: auto;
+
+}
+.pic-cv { margin-bottom: 40px;
+}
+.photo-cv {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.formazione {
+    margin-top: 60px;
+}
+.lingue {
+    margin-top: 50px;
+}
+.nascita {
+    margin-top: 50px;
+}
+.contatti {
+    margin-top: 50px;
+}
