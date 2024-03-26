@@ -1,0 +1,105 @@
+* {
+    font-family: Roboto, Arial;
+    margin: 0px;
+    }
+
+body {
+    margin: 0px;
+    height: 2300px;
+    background-color: lightslategray;
+    
+}
+#about-me {
+    padding: 0px 35px 35px 35px;
+}
+.navbar {
+    background-color: black;
+    
+    padding: 0;
+}
+.navbar-brand{
+    color: white;
+    font-size: 17px;
+    font-family: monospace;
+
+}
+
+.navbar-brand:hover {
+    color: blue;
+}
+.navbar-brand:active {
+    color: white;
+}
+.head {
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.start2impact {
+    text-decoration: none;
+    color: green;
+}
+.start2impact:hover{
+    color: darkgreen;
+}
+.sfondo { width: 100%;
+    
+    
+}
+.img-fluid {
+  width: 250px;
+  height: 250px;;
+  object-fit: cover;
+  border-radius: 125px;
+  margin-bottom: 30px;
+}
+.container {
+    margin-top: 100px;
+}
+.leng-photo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    padding-right: 0;
+    padding-left: 0;
+}
+.row{ 
+    .img-fluid {
+        height: 80px;
+        width: 80px;
+        padding: 0px;
+        margin-right: 20px;
+        border-radius: 0px;
+        margin-bottom: 5px;
+    }
+}
+.h-skills{ color: white;
+
+}
+#skills {
+    padding-top: 10px;
+    padding-bottom: 80px;
+    background-color: black;
+    }
+
+.socials-photo {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#socials {
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+.h-form {
+    color: white;
+}
+#contact-me {
+    margin-top: 100px;
+    padding-top: 60px;
+    background-color: black;
+    padding-bottom: 60px;
+}
