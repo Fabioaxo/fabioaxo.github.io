@@ -1,7 +1,116 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>
+        My Journey
+    </title>
+    <link rel="stylesheet" href="css/bootstrap.css">  
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <nav class="navbar sticky-top"  >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+             <img src="Immagini/Logo.png" width="50px" height="50px"> 
+            </a>
+        <a class="navbar-brand" href="#about-me">About me</a>
+        <a class="navbar-brand" href="#skills">Skills</a>
+        <a class="navbar-brand" href="#socials">Socials</a>
+        <a class="navbar-brand" href="#contact-me">Contact Me</a>
+        <a class="navbar-brand" href="cv.html">CV</a>
+        </div>
+      </nav>
+      <section id="about-me">
+        <div class="container-fluid text-center">
+            <img src="Immagini/sfondo5.png" class="sfondo">
+        </div>
+        <div class="head">
+            <div class="container-fluid text-center">
+                <img class="img-fluid" src="Immagini/io.jpg" style="margin-top: -75px;">
+            </div>
+            <div class="descrizione text-center">
+                <div> 
+                    <h1>Hi I'm Fabio</h1>
+                    <p>Since I was a child I have always had a strong passion for IT and web development.
+                        Graduated in IT at ITIS "Alessandro Volta", thanks to the <a class="start2impact" href="https://www.start2impact.it/master/full-stack-development/" target="_blank">Start2Impact</a> full-stack development course I was able to resume my interrupted studies after graduation.
+                        Now the dream is to be able to make a career in the field I have always wanted to follow. <strong>AD MAIORA</strong>
+                    </p>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <section id="skills">
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+           <h2 class="h-skills">Skills Unlocked</h2> 
+           <img class="img-fluid"  src="Immagini/HTML.png">
+          </div>
+          <div class="col">
+            <h2 class="h-skills">Skills Locked</h2>
+            <div class="row" style="justify-content: center">
+            <img class="img-fluid" src="Immagini/Java_Basics.png">
+            <img class="img-fluid" src="Immagini/Javascript.png">
+            <img class="img-fluid" src="Immagini/Javascript_Advanced.png">
+            <img class="img-fluid" src="Immagini/Angular.png">
+            <img class="img-fluid" src="Immagini/React.png">
+            <img class="img-fluid" src="Immagini/Worpress.png">
+            <img class="img-fluid" src="Immagini/PHP_e_MySQL.png">
+            <img class="img-fluid" src="Immagini/Node.js.png">
+            <img class="img-fluid" src="Immagini/Jekyll.png"> 
+          </div>
+        </div>
+        </div>
+    </section>
+    <section id="socials">
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+           <h2>A leap in my life</h2> 
+           
+           <a href="https://it-it.facebook.com/fabio.taliaferri" target="_blank"><img class="socials-photo" src="Immagini/facebook-logo.png"></a>
+           <a href="https://www.instagram.com/fabio_tagliaferri4?igsh=MXRpbnhmNzM2cWNsNw%3D%3D&utm_source=qr" target="_blank"><img class="socials-photo" src="Immagini/instagram-logo.png"></a>
+
+
+          </div>
+          <div class="col">
+           <h2>My projects and Career</h2> 
+           <img class="socials-photo" src="Immagini/linkedin-logo.png">
+           <img class="socials-photo" src="Immagini/git-logo.png">
+          </div>
+        </div>
+    </div>
+</section>
+    <section id="contact-me">
+    <div class="container-lg text-center"><h2 class="h-form">Contact Form</h2>
+        <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </div>
+    </div>   
+</section>
+
+
+
 </body>
 </html>
