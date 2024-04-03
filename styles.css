@@ -37,6 +37,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+.bio {
+    font-size: 20px;
+}
 .start2impact {
     text-decoration: none;
     color: green;
