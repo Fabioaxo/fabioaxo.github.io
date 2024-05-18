@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Journey-Counter</title>
+<link rel="stylesheet" href="css/bootstrap.css">  
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body background="img/sfondo-nuvole.jpg">
+    
+<div class="container-fluid text-center title">
+            <h1>Welcome to the Journey-Counter</h1>
+</div>
+<div class="container paragraph">
+            <p>-Keep track of how many days are left until your trip and the things you need to go.</p>
+            <p>-As the day of departure approaches, you will be reminded of simple things that you will surely have overlooked or forgotten.</p>
+            <p>-Have a good trip!</p>
+            <button type="button" class="btn btn-secondary button-functions" onclick="insertNumber();">Let's Try!</button>
+</div>
+        <div class="container-fluid text-center buttons-plus-or-minus">
+        <button type="button" class="btn btn-outline-primary button-functions" onclick="increse();">+1</button>
+
+        <p class="js-counter">0</p>
+
+        <button type="button" class="btn btn-outline-danger button-functions" onclick="decrese();">-1</button>
+</div>
+
+    
+
+  
+    
+  
+
+
+    </body>
+
+    <script>
+        let total = 0;
+        let guess = '';
+        function insertNumber(){
+           total = +prompt('Enter how many days remain until your trip.');
+           document.querySelector('.js-counter')
+        .innerHTML = `${total}`;
+        callToMemories();
+        }
+        document.querySelector('.js-counter')
+        .innerHTML = `${total}`;
+        function increse() { let guess ='+1';
+        if (guess === '+1'){
+            total ++;
+            document.querySelector('.js-counter')
+        .innerHTML = `${total}`;
+        }
+
+        }
+        function decrese() {  
+        let guess ='-1';
+        if (total <=0){
+            alert('Your journey has already begun.');
+            total = 0;
+            document.querySelector('.js-counter')
+        .innerHTML = `${total}`;
+        }
+        else if (guess === '-1'){
+            total --;
+            document.querySelector('.js-counter')
+        .innerHTML = `${total}`;
+        callToMemories();
+        }
+                          }   
+        function callToMemories(){
+            if (total == 3 ) {
+            alert(`Not long left, don't forget your documents.`);
+        } else if (total == 5) {
+            alert(`The suitcase is not the last thing to pack. ;) `)
+        } else if (total == 14) {
+            alert(`Don't forget to prepare an itinerary.`);
+        } else if (total == 21) {
+            alert(`Buying new clothes is always a nice thing before a trip.`)
+        }
+        }
+
+    </script>
+
+
+
+
+
+
+
+</html>
