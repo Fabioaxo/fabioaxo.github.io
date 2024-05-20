@@ -1,3 +1,10 @@
+h1 {
+    font-size: 45px;
+}
+.logo {
+    height: 100px;
+    width: 100xpx;
+}
 .title {
     margin-bottom: 40px;
     margin-top: 20px;
@@ -9,9 +16,15 @@
     margin-left: 10px;
 }
 .button-functions {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding: 30px 60px 30px 60px; 
     cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.button-insert {
+    cursor: pointer;
+    padding: 20px 40px 20px 40px;
 }
 .buttons-plus-or-minus{
     margin-top: 100px;
@@ -19,4 +32,17 @@
 .js-counter {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+body {
+    background-color: light;
+    background-image: url("img/sfondo-nuvole.jpg");
+    background-repeat: no-repeat;
+}
+.description {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
 }
