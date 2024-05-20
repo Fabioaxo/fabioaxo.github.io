@@ -37,8 +37,7 @@ h1 {
 
 
 body {
-    background-color: light;
-    background-image: url("img/sfondo-nuvole.jpg");
+    background-color: lightslategray;
     background-repeat: no-repeat;
 }
 .description {
